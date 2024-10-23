@@ -1,0 +1,449 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar {
+    background-color: white;
+    /* position: fixed;
+    top: 0px;
+    z-index: 1; */
+    gap: 20px;
+    #navbarSupportedContent {
+      .navbar-nav {
+        .nav-item {
+          .nav-link.nav-link:hover {
+            color: blue;
+          }
+        }
+        button {
+          height: 40px;
+          width: 100px;
+          border: 2px blue solid;
+          border-radius: 5px;
+          background-color: white;
+        }
+        button:hover {
+          background-color: blue;
+          color: white;
+        }
+      }
+    }
+    #button {
+      height: 40px;
+      width: 150px;
+      border-radius: 5px;
+      background-color: rgba(255, 0, 0, 0.662);
+      border: none;
+      color: white;
+    }
+  }
+  #a1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-image: url("https://assets-v2.scaler.com/assets/academy/svg/banner-background-34136d3a9ddff172e6bae6e3d8283c452231dcda2196b055bfa2e34e222754b7.svg");
+    height: 700px;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    #a2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 20px;
+      width: 50%;
+      padding: 0px 40px;
+      #h1 {
+        font-size: 30px;
+        width: 350px;
+        color: white;
+      }
+      #h2 {
+        font-size: 20px;
+        color: skyblue;
+        b {
+          font-size: 30px;
+          color: white;
+        }
+      }
+      #h3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        #book {
+          height: 40px;
+          width: 180px;
+          border-radius: 5px;
+          background-color: rgba(255, 0, 0, 0.61);
+          border: none;
+          color: white;
+        }
+        #book:hover {
+          background-color: rgba(255, 0, 0, 0.865);
+          color: white;
+        }
+        #explore {
+          height: 40px;
+          width: 180px;
+          border-radius: 5px;
+          border: none;
+          background-color: white;
+          color: blue;
+        }
+      }
+      #h4 {
+        font-size: 20px;
+        color: white;
+        b {
+          font-size: 20px;
+          color: rgba(255, 166, 0, 0.694);
+        }
+      }
+    }
+    #a3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: white;
+      width: 500px;
+      padding: 30px 30px;
+      border-radius: 10px;
+      /* height: 550px; */
+      #a4 {
+        font-size: 30px;
+        b {
+          color: rgba(165, 42, 42, 0.621);
+        }
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 300px;
+        form {
+          display: flex;
+          flex-direction: column;
+          overflow: scroll;
+          #a0 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            input {
+              height: 47px;
+              width: 400px;
+            }
+          }
+          #a6 {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            padding: 30px 30px;
+            #a7 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              border: 1px black solid;
+              padding: 10px;
+            }
+            input {
+              height: 47px;
+              width: 300px;
+            }
+          }
+          #b0 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            input {
+              height: 40px;
+              width: 150px;
+            }
+            select {
+              height: 40px;
+              width: 250px;
+            }
+          }
+          #b7 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            #company {
+              height: 40px;
+              width: 400px;
+            }
+            #jobtitle {
+              height: 40px;
+              width: 400px;
+            }
+          }
+          #b1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px gainsboro solid;
+            height: 40px;
+            padding: 10px 20px;
+            /* width: 400px; */
+            #b2 {
+              font-size: 20px;
+            }
+            #b3 {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: start;
+              #b4 {
+                font-size: 15px;
+              }
+              #b5 {
+                font-size: 15px;
+                color: gray;
+              }
+            }
+          }
+          #a9 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 20px 0px;
+            button {
+              height: 40px;
+              width: 230px;
+              border-radius: 5px;
+              background-color: rgba(255, 0, 0, 0.61);
+              border: none;
+            }
+            #a10 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              #i1 {
+                font-size: 20px;
+                color: rgba(255, 0, 0, 0.557);
+              }
+              #a11 {
+                font-size: 15px;
+                color: rgba(255, 0, 0, 0.557);
+              }
+            }
+          }
+          #a11 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            padding: 15px 20px;
+            gap: 10px;
+            #a12 {
+              font-size: 15px;
+              b {
+                color: skyblue;
+              }
+            }
+            #a13 {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+    border-radius: 5px;
+    position: absolute; 
+    top: 700px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+
+    #c1 {
+      font-size: 30px;
+      b {
+        font-weight: bold;
+      }
+    }
+    #c2 {
+      display: grid;
+      grid-template-columns:auto auto auto;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 10px;
+      .card {
+        text-align: center;
+        align-items: center;
+         padding: 20px 10px; 
+        height: 100%;
+        width: 100%;
+        
+        position: relative;
+        overflow: hidden;
+        img {
+          height: 50px;
+          width: 70px;
+        }
+        .card-body {
+          height: 100%;
+          width: 100%;
+          .card-text {
+            font-size: 20px;
+            color: white;
+            font-weight: 600;
+          }
+          #line1 {
+            height: 30px;
+            width: 150px;
+            background-color: rgba(255, 166, 0, 0.76);
+            rotate: 45deg;
+            position: absolute;
+            top: 0px;
+            right: -35px;
+          }
+          #line2 {
+            height: 30px;
+            width: 150px;
+            background-color: violet;
+            rotate: 45deg;
+            position: absolute;
+            top: 0px;
+            right: -35px;
+          }
+          #line3 {
+            height: 30px;
+            width: 150px;
+            background-color: lightseagreen;
+            rotate: 45deg;
+            position: absolute;
+            top: 0px;
+            right: -35px;
+          }
+          #line4 {
+            height: 30px;
+            width: 150px;
+            background-color: yellow;
+            rotate: 45deg;
+            position: absolute;
+            top: 0px;
+            right: -35px;
+          }
+          #line5 {
+            height: 30px;
+            width: 150px;
+            background-color: skyblue;
+            rotate: 45deg;
+            position: absolute;
+            top: 0px;
+            right: -35px;
+          }
+          #line6 {
+            height: 30px;
+            width: 150px;
+            background-color: orange;
+            rotate: 45deg;
+            position: absolute;
+            top: 0px;
+            right: -35px;
+          }
+        }
+      }
+    }
+  }
+  #flexible{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding-top:650px;
+ #heading{
+    font-size:25px;
+ }
+ #row1{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding:10px 150px;
+    gap:10px;
+ #card{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border:1px gray solid;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 50%;
+  #img{
+    height:70px;
+    width:70px;
+  }
+  #h3{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  #line{
+    font-size:15px;
+    color: rgba(0,0,0,0.608);
+  }
+ }
+ }
+ #row2{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 350px;
+    gap:10px;
+ #card{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border:1px gray solid;
+    border-radius: 10px;
+    padding:20px 30px;
+    width:50%;
+    #img{
+      height:70px;
+      width:70px;
+    }
+    #h3{
+      font-size: 25px;
+      font-weight: 500;
+    }
+    #line{
+      font-size:15px;
+      color: rgba(0,0,0,0.608);
+  }
+}
+ }    
+  }
